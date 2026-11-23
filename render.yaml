@@ -2,15 +2,10 @@ services:
   - type: web
     name: agrimind-ai-api
     runtime: docker
+    plan: free
     dockerfilePath: ./Dockerfile
     dockerContext: .
     healthCheckPath: /health
     envVars:
       - key: CORS_ORIGINS
         value: https://your-frontend.vercel.app
-      - key: AGRI_DB_PATH
-        value: /var/data/agri_history.db
-    disk:
-      name: agrimind-history
-      mountPath: /var/data
-      sizeGB: 1
