@@ -1,7 +1,7 @@
 # AgriMind AI 🌱
 
 **A Prolog-powered Agricultural Expert System**
-
+**Live link : https://agri-mind-ai-gilt.vercel.app/**
 AgriMind AI is an agricultural decision-support application that analyzes farm conditions and provides rule-based crop recommendations using SWI-Prolog, FastAPI and React.
 
 ## Features
